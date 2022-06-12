@@ -1,0 +1,109 @@
+img {
+  display: block;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.row {
+  width: 1366px;
+  max-width: 100%;
+  padding: 0 140px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.col {
+}
+
+.w-100p {
+  width: 100%;
+}
+.py-24 {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.pt-8 {
+  padding-top: 8px;
+}
+
+.pb-8 {
+  padding-bottom: 8px;
+}
+.mt-24 {
+  margin-top: 24px;
+}
+.mt-100{
+  margin-top: 100px;
+}
+.mb-24 {
+  margin-bottom: 24px;
+}
+.color-main {
+  color: #56c4c5;
+}
+.color-light {
+  color: #747474;
+}
+.bg-main {
+  background: #56c4c5;
+}
+
+.fz-20 {
+  font-size: 20px;
+}
+.fz-24 {
+  font-size: 24px;
+}
+.fz-32 {
+  font-size: 32px;
+}
+.fz-48 {
+  font-size: 48px;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.flex-dir-column {
+  flex-direction: column;
+}
+.align-center {
+  align-items: center;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-around {
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 768px) {
+  .row {
+    padding: 0 20px;
+  }
+  .py-sm-16 {
+    padding: 16px;
+  }
+  .pt-sm-32 {
+    padding-top: 32px;
+  }
+  .fz-sm-18 {
+    font-size: 18px;
+  }
+  .fz-sm-28 {
+    font-size: 28px;
+  }
+  .mb-sm-24 {
+    margin-bottom: 24px;
+  }
+  .img-home-sm {
+    width: 100%;
+  }
+}

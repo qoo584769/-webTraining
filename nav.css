@@ -1,0 +1,20 @@
+.nav {
+  align-items: center;
+  justify-content: space-between;
+}
+.nav img {
+  height: 40px;
+}
+.nav p span {
+  color: #fff;
+  background: #ff5d50;
+  padding: 8px 32px;
+  border-radius: 50px;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .nav img {
+    height: 24px;
+  }
+}

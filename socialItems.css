@@ -1,0 +1,15 @@
+.social-items img{
+    width: 90px;
+    height: 90px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .social-items{
+        width: 100%;
+    }
+    .social-items img{
+        width: 60px;
+        height: 60px;
+    }
+  }
