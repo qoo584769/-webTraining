@@ -3,6 +3,7 @@
 @import url('nav.css');
 @import url('socialItems.css');
 @import url('role.css');
+@import url('description.css');
 
 * {
   border: 0px;

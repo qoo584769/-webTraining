@@ -1,0 +1,27 @@
+.description-card {
+  width: calc(50% - 48px);
+  border-radius: 12px;
+  box-shadow: 0px 2px 10px #00000014;
+}
+.description-img {
+  display: inline-block;
+  padding: 16px;
+  border-radius: 50px;
+  box-shadow: 0px 2px 10px #00000014;
+}
+.description-title {
+  font-size: 18px;
+  font-weight: 500;
+}
+.description-btn {
+  font-weight: 300;
+  padding: 12px 32px;
+  border-radius: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .description-card {
+    width: 230px;
+    margin: auto;
+  }
+}
