@@ -4,6 +4,8 @@
 @import url('socialItems.css');
 @import url('role.css');
 @import url('description.css');
+@import url('user.css');
+@import url('footer.css');
 
 * {
   border: 0px;

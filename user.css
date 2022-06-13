@@ -1,0 +1,32 @@
+.user-card{
+    padding: 24px 32px;
+    margin-top: 104px !important;
+    box-shadow: 0px 2px 10px #00000014;
+    position: relative;
+}
+.user-card-img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    overflow: hidden;
+
+    position: absolute;
+    top: -56px;
+}
+
+.user-card-img img{
+    width: 80px;
+    height: 80px;
+}
+.dot{
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+    background: #DDDDDD;
+}
+.dot-yellow{
+    width: 16px;
+    height: 10px;
+    background: #FFD153;
+    border-radius: 50px;
+}

@@ -1,0 +1,23 @@
+.footer {
+  width: 100%;
+  height: auto;
+  background-image: url('https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/home_footer.svg');
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+.footer-btn {
+  display: inline;
+  padding: 12px 32px;
+  border-radius: 50px;
+  color: #fff;
+  background: #56c4c5;
+}
+.copyright {
+  padding: 16px 0px;
+}
+@media screen and (max-width: 768px) {
+  .footer {
+    background-image: url('https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/footer_sm.svg');
+    background-size: 100%;
+  }
+}
